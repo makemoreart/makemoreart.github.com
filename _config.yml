@@ -1,0 +1,36 @@
+# This is the default format. 
+# For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink: /blog/:categories/:year/:month/:day/:title
+
+port: 4445
+
+exclude: ["Rakefile", "Gemfile", "README.md", "style/less/"]
+pygments: true
+
+# https://help.github.com/articles/migrating-your-pages-site-from-maruku
+markdown: kramdown
+
+# Themes are encouraged to use these universal variables 
+# so be sure to set them if your theme uses them.
+#
+title : Make More Art
+tagline: your creativity + my skillset = one personalised artwork
+author :
+  name : Alison Dumbleton
+  email : alison.dumbleton@gmai.com
+
+# The production_url is only used when full-domain names are needed
+# such as sitemap.txt 
+# Most places will/should use BASE_PATH to make the urls
+#
+# If you have set a CNAME (pages.github.com) set your custom domain here.
+# Else if you are pushing to username.github.com, replace with your username.
+# Finally if you are pushing to a GitHub project page, include the project name at the end.
+#
+production_url : http://www.makemoreart.com.au
+
+name: Make More Art
+description: your creativity + my skillset = one personalised artwork
+url: http://www.makemoreart.com.au
+
+env: prod

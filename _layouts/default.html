@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <script type="text/javascript" src="//use.typekit.net/lcp3gxl.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <link rel="stylesheet" type="text/css" media="all" href="/style/site.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    {% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+    {% endif %}
+    <title>Make More Art &mdash; {{ page.title }}</title>
+
+</head>
+    <body>
+        <div id="container">
+            <div id="content">
+                {% if page.title != "Make More Art" %}
+                <header>
+                    <h2 id="title">
+                        <a href="/" title="Home">Make More Art</a>
+                    </h2>
+                    <!-- <nav>
+                        <a href="/services.html">Services</a>
+                        <a href="/contact.html">Contact</a>
+                    </nav> -->
+                    <hr>
+                </header>
+                {% endif %}
+                {{ content }}
+
+            <footer>
+                {% if page.title == "Make More Art" %}
+                    <a href="/services.html">Services</a>
+                    &ndash;
+                    <a href="/contact.html">Contact</a>
+                {% endif %}
+                <!-- <p class="copyright">©2019 Alison Dumbleton</p> -->
+            </footer>
+            </div>
+        </div>
+    </body>
+</html>

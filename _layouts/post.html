@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<div id=page-body>
+    <div class="post">
+        <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
+        <time datetime="{{ page.date | date: '%Y-%m-%d' }}">
+            {{ page.date | date: "%d %b, %Y" }}
+        </time>
+        {{ content }}
+    </div>
+
+    <div class="more-content">
+		<a href="/blog.html" class="more-content">more posts</a> | <a href="/feed.xml">subscribe</a>
+    </div> 
+
+</div>
+
+
