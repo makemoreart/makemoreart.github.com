@@ -1,12 +1,12 @@
 body {
-  font-family: proxima-nova, Avenir, "Segoe UI", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: lighter;
 }
 h1,
 h2,
 h3,
 h4 {
-  font-family: "josefin-sans", "Futura Light", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 h1 a,
 h2 a,
@@ -51,20 +51,20 @@ hgroup.logo {
 }
 hgroup.logo h1,
 hgroup.logo h4 {
-  font-family: "josefin-sans", "Futura Light", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   height: 80%;
   text-align: center;
   margin: 0px;
   padding: 0px;
 }
 hgroup.logo h1 {
-  font-family: "josefin-sans", "Futura Light", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   webkit-margin-before: 0px;
   webkit-margin-after: 0px;
   font-size: 70px;
 }
 hgroup.logo h4 {
-  margin-top: -20px;
+  margin-top: 10px;
   color: #808080;
   font-size: 40px;
 }
@@ -109,7 +109,7 @@ header {
   margin-top: 20px;
 }
 header h2 {
-  font-family: "josefin-sans", "Futura Light", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   width: 60%;
   margin: 0px;
   display: inline-block;
